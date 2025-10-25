@@ -1,0 +1,29 @@
+# BMAD (local only)
+.bmad-core/
+.bmad-*/
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Environment
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Testing
+coverage/
+.vitest/
+
+# Misc
+*.log
+.turbo/
+*.tsbuildinfo
+.DS_Store
